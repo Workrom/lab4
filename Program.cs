@@ -35,6 +35,6 @@ internal class Program
         Console.WriteLine(OurTown.HasPort ? " У мiстi є порт" :" У мiстi нема порту");
         Console.WriteLine(OurTown.HasAirport ? " У мiстi є аеропорт" :" У мiстi нема аеропорту");
         Console.WriteLine();
-        Console.WriteLine(" Середнiй ");
+        Console.WriteLine(" Середнiй річний дохід на одного громадянина:" + YearIncomePerInhabitant.ToString("0.00"));
     }
 }
